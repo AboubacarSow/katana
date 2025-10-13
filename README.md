@@ -53,6 +53,11 @@ Katana is a high-performance, minimalist web server built from scratch in Rust. 
 
 ## Installation
 
+**Prerequisites**
+<br>
+- **For Options 1 and 3**:  Make sure you got Rust installed in your machine before running any cargo commands. <br>
+Follow the official guide : [Rust Installation](https://rust-lang.org/tools/install/).
+<br>
 ### Option 1: Install via Cargo (Recommended)
 
 ```bash
