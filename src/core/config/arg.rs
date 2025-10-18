@@ -48,7 +48,10 @@ pub fn parse_args(args: Vec<String>) -> Config {
                     i += 1;
                 }
             }
-            _ => {}
+            _ => {
+                eprintln!("Error: unrecognized argument '{}'", args[i]);
+                std::process::exit(1);
+            }
         }
         i += 1;
     }
